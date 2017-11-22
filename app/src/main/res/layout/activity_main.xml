@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.changeimagedemo.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/turnBig"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="变大大"
+        android:onClick="turnBig"/>
+    <Button
+        android:id="@+id/turnSmall"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="变小小"
+        android:onClick="turnSmall"/>
+    <Button
+        android:id="@+id/turnLeft"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="turnLeft"
+        android:text="左移动"/>
+
+    <Button
+        android:id="@+id/turnRight"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="右移动"
+        android:onClick="turnRight"/>
+    <Button
+        android:id="@+id/turnCircleLeft"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="turnCircleLeft"
+        android:text="左旋转"/>
+
+    <Button
+        android:id="@+id/turnCircleRight"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="右旋转"
+        android:onClick="turnCircleRight"/>
+</LinearLayout>
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/leimur"
+        android:layout_centerInParent="true"
+        />
+
+
+
+
+
+</RelativeLayout>
